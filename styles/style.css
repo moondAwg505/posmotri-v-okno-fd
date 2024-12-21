@@ -49,7 +49,7 @@ ol {
   margin-right: 30px;
   margin-bottom: 133px;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr auto;
   grid-template-areas:
     "result content__details"
     "search-form content__details";
@@ -229,7 +229,6 @@ ol {
 
 .search-form__pseudo-checkbox::before {
   content: "";
-  display: block;
   width: 16px;
   height: 16px;
   background-color: #fff;
