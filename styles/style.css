@@ -44,9 +44,10 @@ ol {
   width: 1200px;
   height: 800px;
   gap: 25px;
-  margin-top: 250px;
+  margin-top: 155px;
   margin-left: 91px;
   margin-right: 30px;
+  margin-bottom: 133px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
@@ -232,6 +233,7 @@ ol {
   width: 16px;
   height: 16px;
   background-color: #fff;
+  display: none;
 }
 
 .search-form__label-text {
